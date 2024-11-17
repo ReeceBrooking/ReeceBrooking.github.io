@@ -10,11 +10,13 @@
 - Operational Research, Graph Theory, Game Theory, Mathematical Biology
 ## Skills
 ### Machine Learning
+- Supervised and Unsupervised Learning
+- Deep Learning
 - Linear and Logistics Regression
 - K-Nearest Neighbours and K-Means Clustering
 - Support Vector Machines
 - Naives Bayes Classifier
-- Deep Learning
+- Decision Trees and Perceptrons
 ### Hard Skills
 - Data Visualisation and Analysis
 - Statistical Analysis
