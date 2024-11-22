@@ -85,61 +85,6 @@ header nav ul.inline-list a {
     margin-top: 20px;
 }
 
-.collapsible-btn {
-    background: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px 0;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    font-size: 1rem;
-}
-
-.collapsible-btn:hover {
-    background: #444;
-}
-
-.collapsible-content {
-    display: none;
-    background: #f7f7f7;
-    padding: 10px 15px;
-    border-radius: 4px;
-    margin: 5px 0;
-}
-
-.collapsible-content ul {
-    list-style: none;
-    padding-left: 15px;
-}
-
-.collapsible-content ul li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 15px;
-    background: #333;
-    color: #fff;
-    border-radius: 8px;
-}
-
-footer p {
-    margin: 5px 0;
-    color: #fff;
-}
-
-footer a {
-    text-decoration: none;
-    color: #4CAF50;
-    font-weight: bold;
-}
-
 /* Collapsible Buttons */
 .collapsible-btn {
     background: #333;
@@ -182,5 +127,26 @@ footer a {
 
 .collapsible-content ul li {
     margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
 }
 
