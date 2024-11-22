@@ -5,7 +5,7 @@
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Portfolio with Collapsible Skills</title>
+    <title>Portfolio with Animated Collapsibles</title>
 </head>
 <body>
     <!-- Header Section -->
@@ -39,7 +39,7 @@
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
         <div class="card-list">
-            <div class="card">
+             <div class="card">
                 <h4>Statistics for Large Data</h4>
                 <p>Advanced methods for analyzing and interpreting big datasets.</p>
             </div>
@@ -67,7 +67,7 @@
     </section>
 
     <!-- Skills Section -->
-  <section>
+<section>
         <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="collapsible">
             <button class="collapsible-btn">Technical Skills</button>
@@ -107,32 +107,27 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
- <section class="projects">
-        <h2><i class="fas fa-tasks"></i> Projects</h2>
-        <article class="project-item">
-            <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
-            <div>
-                <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
-                <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
-                <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-            </div>
-        </article>
-    </section>
-
     <!-- Footer -->
 <footer>
         <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
+
+    <!-- JavaScript -->
+ <script>
+        const collapsibles = document.querySelectorAll(".collapsible-btn");
+        collapsibles.forEach(button => {
+            button.addEventListener("click", () => {
+                const content = button.nextElementSibling;
+                button.classList.toggle("active");
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                    content.style.opacity = 0;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    content.style.opacity = 1;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-<script>
-    const collapsibles = document.querySelectorAll(".collapsible-btn");
-    collapsibles.forEach(button => {
-        button.addEventListener("click", () => {
-            const content = button.nextElementSibling;
-            content.style.display = content.style.display === "block" ? "none" : "block";
-        });
-    });
-</script>
-
