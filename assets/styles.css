@@ -45,6 +45,55 @@ body {
     gap: 20px;
 }
 
+.card {
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+.collapsible-btn {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.collapsible-btn:hover {
+    background: #444;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #f7f7f7;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Projects Section */
+.projects .project-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-image {
+    width: 200px;
+    border-radius: 8px;
+}
+
 /* Modal Styles */
 .modal {
     display: none;
@@ -64,4 +113,13 @@ body {
     border-radius: 8px;
     width: 90%;
     max-width: 600px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #333;
+    color: #fff;
 }
