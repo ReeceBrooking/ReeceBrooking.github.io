@@ -1,4 +1,4 @@
-/* Global Reset */
+/* Reset */
 body, h1, h2, h3, p, ul, li, img, a {
     margin: 0;
     padding: 0;
@@ -92,6 +92,7 @@ section h2 {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 .progress-item span {
@@ -114,6 +115,7 @@ section h2 {
     display: block;
     height: 100%;
     background: #4caf50;
+    width: var(--progress);
     position: absolute;
     top: 0;
     left: 0;
