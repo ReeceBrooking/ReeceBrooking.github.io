@@ -40,7 +40,7 @@
 ## Projects
 
 
-[Publication](https://google.co.uk)
+
 ![Publication](https://google.co.uk)
-**Publication** 
+
 
