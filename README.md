@@ -5,7 +5,7 @@
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
+    <title>Portfolio with Fixes</title>
 </head>
 <body>
     <!-- Header Section -->
@@ -21,7 +21,7 @@
     </header>
 
     <!-- About Section -->
-<section class="plaque">
+<section class="about plaque">
         <div class="about-content">
             <img src="assets/headshot.jpg" alt="Headshot" class="headshot">
             <div>
@@ -34,7 +34,7 @@
     </section>
 
     <!-- Education Section -->
- <section class="plaque">
+   <section class="plaque">
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
@@ -67,7 +67,7 @@
     </section>
 
     <!-- Skills Section -->
-<section class="plaque">
+ <section class="plaque">
         <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="collapsible">
             <button class="collapsible-btn">Technical Skills</button>
@@ -108,7 +108,7 @@
     </section>
 
     <!-- Projects Section -->
-<section class="plaque">
+ <section class="projects plaque">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article class="project-item">
             <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
@@ -121,7 +121,7 @@
     </section>
 
     <!-- Modal -->
-<div id="project-modal-1" class="modal">
+   <div id="project-modal-1" class="modal">
         <div class="modal-content">
             <span class="close-modal-btn">&times;</span>
             <h3>X-Ray Multi-Class Classification</h3>
@@ -144,7 +144,7 @@
     </footer>
 
     <!-- JavaScript -->
-<script>
+  <script>
         // Open modal
         document.querySelectorAll('.open-modal-btn').forEach(button => {
             button.addEventListener('click', () => {
