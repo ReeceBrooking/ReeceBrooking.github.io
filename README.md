@@ -5,7 +5,7 @@
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Portfolio with Animated Collapsibles</title>
+    <title>Portfolio with Modals and Collapsibles</title>
 </head>
 <body>
     <!-- Header Section -->
@@ -27,19 +27,19 @@
             <div>
                 <h2>About Me</h2>
                 <p>
-                    I am a passionate Data Scientist with a strong background in mathematics and machine learning. I specialize in creating data-driven solutions to complex problems and love collaborating with teams to bring ideas to life. 
+                    I am a passionate Data Scientist with a strong background in mathematics and machine learning. I specialize in creating data-driven solutions to complex problems and love collaborating with teams to bring ideas to life.
                 </p>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-<section>
+ <section>
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
         <div class="card-list">
-             <div class="card">
+            <div class="card">
                 <h4>Statistics for Large Data</h4>
                 <p>Advanced methods for analyzing and interpreting big datasets.</p>
             </div>
@@ -67,7 +67,7 @@
     </section>
 
     <!-- Skills Section -->
-<section>
+ <section>
         <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="collapsible">
             <button class="collapsible-btn">Technical Skills</button>
@@ -107,18 +107,36 @@
         </div>
     </section>
 
-     <!-- Projects Section -->
-<section class="projects">
+    <!-- Projects Section -->
+  <section class="projects">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article class="project-item">
             <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
             <div>
                 <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
                 <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
-                <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+                <button class="open-modal-btn" data-modal="project-modal-1">View Details</button>
             </div>
         </article>
     </section>
+
+    <!-- Modal -->
+  <div id="project-modal-1" class="modal">
+        <div class="modal-content">
+            <span class="close-modal-btn">&times;</span>
+            <h3>X-Ray Multi-Class Classification</h3>
+            <p>
+                This project involves using a convolutional neural network to classify X-ray images into multiple categories.
+                It demonstrates advanced machine learning techniques for image recognition.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV.
+            </p>
+            <a href="https://github.com/your-github-repo" target="_blank" class="modal-link">
+                View on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
 
     <!-- Footer -->
 <footer>
@@ -127,6 +145,31 @@
 
     <!-- JavaScript -->
  <script>
+        // Open modal
+        document.querySelectorAll('.open-modal-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const modalId = button.getAttribute('data-modal');
+                const modal = document.getElementById(modalId);
+                modal.style.display = 'flex';
+            });
+        });
+
+        // Close modal
+        document.querySelectorAll('.close-modal-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const modal = button.closest('.modal');
+                modal.style.display = 'none';
+            });
+        });
+
+        // Close modal when clicking outside the content
+        window.addEventListener('click', (event) => {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        });
+
+        // Collapsible functionality
         const collapsibles = document.querySelectorAll(".collapsible-btn");
         collapsibles.forEach(button => {
             button.addEventListener("click", () => {
