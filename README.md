@@ -1,28 +1,28 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Neutral Portfolio</title>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1><i class="fas fa-user-circle"></i> Welcome to My Portfolio</h1>
         <nav>
             <ul class="inline-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Me</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Education Section -->
-<section>
-        <h2>Education</h2>
+    <section>
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
         <div class="card-list">
@@ -42,43 +42,43 @@
     </section>
 
     <!-- Skills Section -->
-<section>
-        <h2>Skills</h2>
+    <section>
+        <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="progress-list">
             <div class="progress-item">
-                <span>Data Analysis</span>
-                <div class="progress-bar" style="width: 90%;"></div>
+                <span><i class="fas fa-chart-line"></i> Data Analysis</span>
+                <div class="progress-bar" style="--progress: 90%;"></div>
             </div>
             <div class="progress-item">
-                <span>Machine Learning</span>
-                <div class="progress-bar" style="width: 85%;"></div>
+                <span><i class="fas fa-robot"></i> Machine Learning</span>
+                <div class="progress-bar" style="--progress: 85%;"></div>
             </div>
             <div class="progress-item">
-                <span>Deep Learning</span>
-                <div class="progress-bar" style="width: 80%;"></div>
+                <span><i class="fas fa-brain"></i> Deep Learning</span>
+                <div class="progress-bar" style="--progress: 80%;"></div>
             </div>
             <div class="progress-item">
-                <span>Optimization</span>
-                <div class="progress-bar" style="width: 75%;"></div>
+                <span><i class="fas fa-cogs"></i> Optimization</span>
+                <div class="progress-bar" style="--progress: 75%;"></div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-<section>
-        <h2>Projects</h2>
+    <section>
+        <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article>
-            <h3>X-Ray Multi-Class Classification</h3>
+            <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
             <img src="assets/40.png" alt="Screenshot of X-Ray project">
             <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
-            <a href="https://github.com/your-github-repo" target="_blank">View on GitHub</a>
+            <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
         </article>
     </section>
 
     <!-- Footer -->
-<footer>
+    <footer>
         <p>© 2024 Neutral Portfolio</p>
-        <p><a href="https://github.com/username">GitHub</a> | <a href="https://linkedin.com/in/username">LinkedIn</a></p>
+        <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 </body>
 </html>
