@@ -21,7 +21,7 @@
     </header>
 
     <!-- Education Section -->
-    <section>
+<section>
         <h2>Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
@@ -30,10 +30,10 @@
             <li>Linear Algebra</li>
             <li>Graph Theory</li>
         </ul>
-    </section>
+</section>
 
     <!-- Skills Section -->
-    <section>
+<section>
         <h2>Skills</h2>
         <ul class="grid-list">
             <li>Data Analysis</li>
@@ -41,10 +41,10 @@
             <li>Deep Learning</li>
             <li>Optimization</li>
         </ul>
-    </section>
+</section>
 
     <!-- Projects Section -->
-    <section>
+<section>
         <h2>Projects</h2>
         <article>
             <h3>X-Ray Multi-Class Classification</h3>
@@ -53,12 +53,12 @@
             <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
             <a href="https://github.com/your-github-repo" target="_blank">View on GitHub</a>
         </article>
-    </section>
+</section>
 
     <!-- Footer -->
-    <footer>
+<footer>
         <p>© 2024 Minimalist Portfolio</p>
         <p><a href="https://github.com/username">GitHub</a> | <a href="https://linkedin.com/in/username">LinkedIn</a></p>
-    </footer>
+</footer>
 </body>
 </html>
