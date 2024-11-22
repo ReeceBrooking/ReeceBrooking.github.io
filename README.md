@@ -5,12 +5,12 @@
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Neutral Portfolio</title>
+    <title>Bold Portfolio</title>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1><i class="fas fa-user-circle"></i> Welcome to My Portfolio</h1>
+        <h1><i class="fas fa-user-circle"></i> My Portfolio</h1>
         <nav>
             <ul class="inline-list">
                 <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
@@ -20,8 +20,21 @@
         </nav>
     </header>
 
+    <!-- About Section -->
+<section class="about">
+        <div class="about-content">
+            <img src="assets/headshot.jpg" alt="Headshot" class="headshot">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate Data Scientist with a strong background in mathematics and machine learning. I specialize in creating data-driven solutions to complex problems and love collaborating with teams to bring ideas to life. 
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- Education Section -->
-    <section>
+<section>
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
@@ -42,7 +55,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section>
+<section>
         <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="progress-list">
             <div class="progress-item">
@@ -65,7 +78,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section>
+ <section>
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article>
             <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
@@ -76,8 +89,8 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>© 2024 Neutral Portfolio</p>
+  <footer>
+        <p>© 2024 Bold Portfolio</p>
         <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 </body>
