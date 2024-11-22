@@ -21,7 +21,7 @@
     </header>
 
     <!-- About Section -->
- <section class="plaque about">
+  <section class="plaque about">
         <div class="about-content">
             <img src="assets/headshot.jpg" alt="Headshot" class="headshot">
             <div>
@@ -34,7 +34,7 @@
     </section>
 
     <!-- Education Section -->
- <section class="plaque">
+<section class="plaque">
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <h3>BSc, Mathematics</h3>
         <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
@@ -67,7 +67,7 @@
     </section>
 
     <!-- Skills Section -->
-  <section class="plaque">
+<section class="plaque">
         <h2><i class="fas fa-tools"></i> Skills</h2>
         <div class="collapsible">
             <button class="collapsible-btn">Technical Skills</button>
@@ -108,7 +108,7 @@
     </section>
 
     <!-- Projects Section -->
-<section class="plaque">
+  <section class="plaque">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article class="project-item">
             <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
@@ -139,12 +139,12 @@
     </div>
 
     <!-- Footer -->
-  <footer>
+ <footer>
         <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 
     <!-- JavaScript -->
-   <script>
+ <script>
         // Open modal
         document.querySelectorAll('.open-modal-btn').forEach(button => {
             button.addEventListener('click', () => {
