@@ -139,3 +139,48 @@ footer a {
     color: #4CAF50;
     font-weight: bold;
 }
+
+/* Collapsible Buttons */
+.collapsible-btn {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.collapsible-btn:hover {
+    background: #444;
+}
+
+.collapsible-btn.active {
+    background: #555;
+}
+
+/* Collapsible Content */
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #f7f7f7;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.collapsible-content ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.collapsible-content ul li {
+    margin-bottom: 5px;
+}
+
