@@ -5,7 +5,7 @@
     <meta name="description" content="Personal portfolio showcasing my projects and skills.">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <title>Bold Portfolio</title>
+    <title>Portfolio with Collapsible Skills</title>
 </head>
 <body>
     <!-- Header Section -->
@@ -51,47 +51,88 @@
                 <h4>Graph Theory</h4>
                 <p>Studying network structures and algorithms.</p>
             </div>
+            <div class="card">
+                <h4>Calculus</h4>
+                <p>In-depth study of limits, derivatives, and integrals.</p>
+            </div>
+            <div class="card">
+                <h4>Probability Theory</h4>
+                <p>Advanced concepts in probability and stochastic processes.</p>
+            </div>
+            <div class="card">
+                <h4>Mathematical Modeling</h4>
+                <p>Modeling real-world problems using mathematical techniques.</p>
+            </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-<section>
+  <section>
         <h2><i class="fas fa-tools"></i> Skills</h2>
-        <div class="progress-list">
-            <div class="progress-item">
-                <span><i class="fas fa-chart-line"></i> Data Analysis</span>
-                <div class="progress-bar" style="--progress: 90%;"></div>
+        <div class="collapsible">
+            <button class="collapsible-btn">Technical Skills</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Data Analysis</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Optimization</li>
+                </ul>
             </div>
-            <div class="progress-item">
-                <span><i class="fas fa-robot"></i> Machine Learning</span>
-                <div class="progress-bar" style="--progress: 85%;"></div>
+            <button class="collapsible-btn">Programming Languages</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>SQL</li>
+                    <li>MATLAB</li>
+                </ul>
             </div>
-            <div class="progress-item">
-                <span><i class="fas fa-brain"></i> Deep Learning</span>
-                <div class="progress-bar" style="--progress: 80%;"></div>
+            <button class="collapsible-btn">Soft Skills</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Team Coordination</li>
+                    <li>Client Communication</li>
+                    <li>Problem Solving</li>
+                </ul>
             </div>
-            <div class="progress-item">
-                <span><i class="fas fa-cogs"></i> Optimization</span>
-                <div class="progress-bar" style="--progress: 75%;"></div>
+            <button class="collapsible-btn">Languages</button>
+            <div class="collapsible-content">
+                <ul>
+                    <li>English (Native)</li>
+                    <li>Spanish (B2)</li>
+                    <li>French (A2)</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
- <section>
+ <section class="projects">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
-        <article>
-            <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
-            <img src="assets/40.png" alt="Screenshot of X-Ray project">
-            <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
-            <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+        <article class="project-item">
+            <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
+            <div>
+                <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
+                <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
+                <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+            </div>
         </article>
     </section>
 
     <!-- Footer -->
-  <footer>
-        <p>© 2024 Bold Portfolio</p>
+<footer>
         <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 </body>
 </html>
+<script>
+    const collapsibles = document.querySelectorAll(".collapsible-btn");
+    collapsibles.forEach(button => {
+        button.addEventListener("click", () => {
+            const content = button.nextElementSibling;
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        });
+    });
+</script>
+
