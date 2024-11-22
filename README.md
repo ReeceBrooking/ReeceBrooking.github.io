@@ -107,6 +107,19 @@
         </div>
     </section>
 
+     <!-- Projects Section -->
+<section class="projects">
+        <h2><i class="fas fa-tasks"></i> Projects</h2>
+        <article class="project-item">
+            <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
+            <div>
+                <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
+                <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
+                <a href="https://github.com/your-github-repo" target="_blank">View on GitHub <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </article>
+    </section>
+
     <!-- Footer -->
 <footer>
         <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
