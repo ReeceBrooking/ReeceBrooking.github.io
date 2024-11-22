@@ -40,5 +40,5 @@
 ## Projects
 
 ### X-Ray Multi-Class Classification
-![X-ray](/assets/40.png/)
+![X-ray](assets/40.png)
 
