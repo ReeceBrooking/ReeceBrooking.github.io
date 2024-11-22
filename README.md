@@ -49,7 +49,7 @@
         <article>
             <h3>X-Ray Multi-Class Classification</h3>
             <!-- Adjusted image path and scaling -->
-            <img src="assets/40.png" alt="Screenshot of X-Ray project">
+            <img src="assets/41.png" alt="Screenshot of X-Ray project">
             <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
             <a href="https://github.com/your-github-repo" target="_blank">View on GitHub</a>
         </article>
