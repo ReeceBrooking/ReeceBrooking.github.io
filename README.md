@@ -39,8 +39,6 @@
 
 ## Projects
 
-
-
-![Publication](https://google.co.uk)
-
+### X-Ray Multi-Class Classification
+![X-ray](/assets/40.png)
 
