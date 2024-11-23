@@ -99,6 +99,9 @@
  <div id="project-modal-1" class="modal">
         <div class="modal-content">
             <span class="close-modal-btn">&times;</span>
+            <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
+                View code on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
             <section class="plaque">
     <h1>Multi-Class Image Classification for X-rays</h1>
     <p>
@@ -184,7 +187,7 @@
 </section>
 
 <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
-                View on GitHub <i class="fas fa-external-link-alt"></i>
+                View code on GitHub <i class="fas fa-external-link-alt"></i>
             </a>
         </div>
     </div>
