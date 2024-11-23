@@ -74,9 +74,9 @@
             <button class="collapsible-btn">Technical Skills</button>
             <div class="collapsible-content">
                 <ul>
-                    <li>Statistical Analysis and Data Visualisation</li>
-                    <li>Regression and Supervised/Unsupervised Machine Learning</li>
-                    <li>Deep Learning</li>
+                    <li><strong>Statistical Analysis and Data Visualisation</strong></li>
+                    <li><strong>Regression and Supervised/Unsupervised Machine Learning</strong></li>
+                    <li><strong>Deep Learning</strong></li>
                     <li>Discrete Mathematics and Optimisation Algorithms</li>
                     <li>Computational Methods</li>
                     <li>Mathematical Modelling</li>
@@ -85,7 +85,7 @@
             <button class="collapsible-btn">Programming Languages</button>
             <div class="collapsible-content">
                 <ul>
-                    <li>Python</li>
+                    <li><strong>Python</strong></li>
                     <li>R</li>
                     <li>SQL</li>
                     <li>MATLAB</li>
@@ -144,7 +144,7 @@
 
     <!-- Footer -->
  <footer>
-        <p><a href="https://github.com/username"><i class="fab fa-github"></i> GitHub</a> | <a href="https://linkedin.com/in/username"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+        <p><a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.linkedin.com/in/reece-brooking-371b0730a/"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 
     <!-- JavaScript -->
