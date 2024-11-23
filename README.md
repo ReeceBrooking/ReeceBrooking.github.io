@@ -100,11 +100,11 @@
  <div id="project-modal-1" class="modal">
         <div class="modal-content">
             <span class="close-modal-btn">&times;</span>
-            <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
-                View code on GitHub <i class="fas fa-external-link-alt"></i>
-            </a>
             <section class="plaque">
     <h1>Multi-Class Image Classification for X-rays</h1>
+                 <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
+                View code on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
     <p>
         This project was aimed at developing a machine learning model to assist doctors in diagnosing illnesses affecting patients' lungs. Using a dataset of labelled X-ray scans—categorised into pneumonia, COVID-19, or no illness—I constructed a multi-class classification model using a Convolutional Neural Network. The model outputs a diagnosis based on an input X-ray scan by leveraging tools like TensorFlow/Keras and various preprocessing, training, and evaluation techniques.
     </p>
