@@ -52,7 +52,7 @@
                 <p>Studying network structures and algorithms.</p>
             </div>
             <div class="card">
-                <h4>Calculus</h4>
+                <h4>Operational Research</h4>
                 <p>In-depth study of limits, derivatives, and integrals.</p>
             </div>
             <div class="card">
@@ -60,7 +60,15 @@
                 <p>Advanced concepts in probability and stochastic processes.</p>
             </div>
             <div class="card">
-                <h4>Mathematical Modeling</h4>
+                <h4>Mathematical Biology</h4>
+                <p>Modeling real-world problems using mathematical techniques.</p>
+            </div>
+            <div class="card">
+                <h4>Game Theory</h4>
+                <p>Modeling real-world problems using mathematical techniques.</p>
+            </div>
+            <div class="card">
+                <h4>Computing and Numerical Methods</h4>
                 <p>Modeling real-world problems using mathematical techniques.</p>
             </div>
         </div>
