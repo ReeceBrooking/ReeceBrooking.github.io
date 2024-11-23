@@ -133,7 +133,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 150%;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     justify-content: center;
@@ -144,7 +144,7 @@ body {
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    width: 90%;
+    width: 120%;
     max-width: 600px;
     max-height: 90%; /* Ensure the modal content doesn't overflow */
     overflow-y: auto; /* Add scrolling for long content */
