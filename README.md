@@ -236,7 +236,6 @@
 
     <!-- Footer -->
  <footer>
-        <p><a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io"><i class="fab fa-github"></i> GitHub</a> | <a href="https://www.linkedin.com/in/reece-brooking-371b0730a/"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
     </footer>
 
     <!-- JavaScript -->
