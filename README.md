@@ -236,6 +236,7 @@
 
     <!-- Footer -->
  <footer>
+     <a></a>
     </footer>
 
     <!-- JavaScript -->
