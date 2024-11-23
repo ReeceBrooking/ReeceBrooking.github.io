@@ -149,6 +149,7 @@ body {
     max-height: 90%; /* Ensure the modal content doesn't overflow */
     overflow-y: auto; /* Add scrolling for long content */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
 }
 
 /* Footer */
