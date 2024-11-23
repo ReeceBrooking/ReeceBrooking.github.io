@@ -183,6 +183,12 @@
     </p>
 </section>
 
+<a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
+                View on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </div>
+
     <!-- Education Section -->
 <section class="plaque">
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
@@ -223,12 +229,6 @@
             </div>
         </div>
     </section>
-
-<a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
-                View on GitHub <i class="fas fa-external-link-alt"></i>
-            </a>
-        </div>
-    </div>
 
     <!-- Footer -->
  <footer>
