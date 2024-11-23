@@ -191,6 +191,8 @@
     <p>
         Evaluation metrics, including accuracy and AUC, were tracked across training and validation datasets to monitor performance over time. Accuracy provided a straightforward measure of correct predictions, while AUC assessed the model’s ability to distinguish between classes. These metrics were plotted using Matplotlib, allowing for visualisation of model performance.
     </p>
+     <img src="assets/Model Accuracy Main.PNG" alt="Accuracy">
+     <img src="assets/Model AUC Main.PNG" alt="Headshot">
     <p>
         The model achieved approximately 76% accuracy on the test set, demonstrating a solid baseline for multi-class classification. Analysis of precision, recall, and F1 scores through classification reports highlighted areas for improvement and a confusion matrix visualised patterns of misclassification.
     </p>
