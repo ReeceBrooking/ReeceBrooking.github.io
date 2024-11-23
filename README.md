@@ -42,11 +42,11 @@
             </div>
             <div class="card">
                 <h4>Graph Theory</h4>
-                <p>Studying network structures and algorithms.</p>
+                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
             </div>
             <div class="card">
                 <h4>Operational Research</h4>
-                <p>In-depth study of limits, derivatives, and integrals.</p>
+                <p>Applying mathematical techniques to optimize processes and decision-making in complex systems.</p>
             </div>
             <div class="card">
                 <h4>Probability Theory</h4>
@@ -54,15 +54,15 @@
             </div>
             <div class="card">
                 <h4>Mathematical Biology</h4>
-                <p>Modeling real-world problems using mathematical techniques.</p>
+                <p>Modeling biological systems using mathematical frameworks to study dynamics and patterns.</p>
             </div>
             <div class="card">
                 <h4>Game Theory</h4>
                 <p>Modeling real-world problems using mathematical techniques.</p>
             </div>
             <div class="card">
-                <h4>Computing and Numerical Methods</h4>
-                <p>Modeling real-world problems using mathematical techniques.</p>
+                <h4>Communicating Mathematics</h4>
+                <p>Communicating complex mathematical concepts in an easy-to-digest presentation.</p>
             </div>
         </div>
     </section>
