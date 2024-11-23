@@ -99,10 +99,6 @@
  <div id="project-modal-1" class="modal">
         <div class="modal-content">
             <span class="close-modal-btn">&times;</span>
-            <h3>X-Ray Multi-Class Classification</h3>
-             <p>
-                <strong>Technologies Used:</strong> Python, TensorFlow, Keras.
-            </p>
             <section class="plaque">
     <h1>Multi-Class Image Classification for X-rays</h1>
     <p>
