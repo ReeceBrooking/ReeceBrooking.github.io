@@ -58,7 +58,7 @@
             </div>
             <div class="card">
                 <h4>Game Theory</h4>
-                <p>Modeling real-world problems using mathematical techniques.</p>
+                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
             </div>
             <div class="card">
                 <h4>Communicating Mathematics</h4>
