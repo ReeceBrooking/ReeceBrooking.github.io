@@ -10,14 +10,7 @@
 <body>
     <!-- Header Section -->
     <header class="header">
-        <h1><i class="fas fa-user-circle"></i> My Portfolio</h1>
-        <nav>
-            <ul class="inline-list">
-                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
-                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Me</a></li>
-            </ul>
-        </nav>
+        <h1><i class="fas fa-user-circle"></i>Data Science and Machine Learning Portfolio</h1>
     </header>
 
     <!-- About Section -->
@@ -81,10 +74,12 @@
             <button class="collapsible-btn">Technical Skills</button>
             <div class="collapsible-content">
                 <ul>
-                    <li>Data Analysis</li>
-                    <li>Machine Learning</li>
+                    <li>Statistical Analysis and Data Visualisation</li>
+                    <li>Regression and Supervised/Unsupervised Machine Learning</li>
                     <li>Deep Learning</li>
-                    <li>Optimization</li>
+                    <li>Discrete Mathematics and Optimisation Algorithms</li>
+                    <li>Computational Methods</li>
+                    <li>Mathematical Modelling</li>
                 </ul>
             </div>
             <button class="collapsible-btn">Programming Languages</button>
@@ -102,6 +97,7 @@
                     <li>Team Coordination</li>
                     <li>Client Communication</li>
                     <li>Problem Solving</li>
+                    <li>Effective Communication</li>
                 </ul>
             </div>
             <button class="collapsible-btn">Languages</button>
@@ -119,7 +115,7 @@
   <section class="plaque">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article class="project-item">
-            <img src="assets/40.png" alt="Screenshot of X-Ray project" class="project-image">
+            <img src="assets/41.png" alt="Screenshot of X-Ray project" class="project-image">
             <div class="project-text">
                 <h3><i class="fas fa-x-ray"></i> X-Ray Multi-Class Classification</h3>
                 <p>This project focuses on multi-class classification of X-ray images using deep learning techniques.</p>
@@ -133,14 +129,14 @@
         <div class="modal-content">
             <span class="close-modal-btn">&times;</span>
             <h3>X-Ray Multi-Class Classification</h3>
+             <p>
+                <strong>Technologies Used:</strong> Python, TensorFlow, Keras.
+            </p>
             <p>
-                This project involves using a convolutional neural network to classify X-ray images into multiple categories.
+                This project involves using a convolutional neural network to classify X-ray images into "Healthy", "Covid" or "Pneumonia".
                 It demonstrates advanced machine learning techniques for image recognition.
             </p>
-            <p>
-                <strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV.
-            </p>
-            <a href="https://github.com/your-github-repo" target="_blank" class="modal-link">
+            <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
                 View on GitHub <i class="fas fa-external-link-alt"></i>
             </a>
         </div>
