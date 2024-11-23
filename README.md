@@ -23,7 +23,7 @@
                     I am an undergraduate in Mathematics with a solid foundation in Physics, Machine Learning, and Life Sciences. Inspired by my parents’ contributions to the Human Genome Project, I cultivated a deep passion for science, which later evolved into a keen interest in applying data science to interdisciplinary challenges.
                 </p>
                 <p>
-                    My journey into machine learning stems from a strong grounding in applied mathematics, honed during my A-Levels in Further Mathematics and carried forward into diverse, hands-on projects. These include bioinformatics, image classification, and sentiment analysis, where I leveraged my expertise in Python and key libraries such as Pandas, NumPy,                      SciPy, Scikit-learn, TensorFlow, Keras, and Matplotlib.
+                    My journey into machine learning stems from a strong grounding in applied mathematics, honed during my A-Levels in Further Mathematics and carried forward into diverse, hands-on projects. These include bioinformatics, image classification, and sentiment analysis, where I leveraged my expertise in <strong>Python</strong> and key libraries such as <strong>Pandas</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, Keras, NumPy, SciPy, and Matplotlib.
                 </p>
                 <p>
                     I am enthusiastic about opportunities to integrate my analytical and technical skills in collaborative environments, particularly those that connect data science with other fields. My goal is to contribute to innovative solutions at the intersection of technology, mathematics, and the sciences.
