@@ -23,6 +23,9 @@
                     I am an undergraduate in Mathematics with a solid foundation in Physics, Machine Learning, and Life Sciences. Inspired by my parents’ contributions to the Human Genome Project, I cultivated a deep passion for science, which later evolved into a keen interest in applying data science to interdisciplinary challenges.
                 </p>
                 <p>
+                    Currently, I work as a consultant for a life science marketing company that provides marketing services and event management to genomics companies. My role spans diverse responsibilities, including webinar management and production, market research, and data analysis. This experience has deepened my understanding of the life sciences industry while honing my analytical and organizational skills.
+                </p>
+                <p>
                     My journey into machine learning stems from a strong grounding in applied mathematics, honed during my A-Levels in Further Mathematics and carried forward into diverse, hands-on projects. These include bioinformatics, image classification, and sentiment analysis, where I leveraged my expertise in <strong>Python</strong> and key libraries such as <strong>Pandas</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, Keras, NumPy, SciPy, and Matplotlib.
                 </p>
                 <p>
