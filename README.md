@@ -79,49 +79,7 @@
         </div>
     </section>
 
-    <!-- Education Section -->
-<section class="plaque">
-        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-        <h3>BSc, Mathematics</h3>
-        <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
-        <div class="card-list">
-            <div class="card">
-                <h4>Statistics for Large Data</h4>
-                <p>Advanced methods for analyzing and interpreting big datasets.</p>
-            </div>
-            <div class="card">
-                <h4>Linear Algebra</h4>
-                <p>Foundational mathematical concepts for computational modeling.</p>
-            </div>
-            <div class="card">
-                <h4>Graph Theory</h4>
-                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
-            </div>
-            <div class="card">
-                <h4>Operational Research</h4>
-                <p>Applying mathematical techniques to optimize processes and decision-making in complex systems.</p>
-            </div>
-            <div class="card">
-                <h4>Probability Theory</h4>
-                <p>Advanced concepts in probability and stochastic processes.</p>
-            </div>
-            <div class="card">
-                <h4>Mathematical Biology</h4>
-                <p>Modeling biological systems using mathematical frameworks to study dynamics and patterns.</p>
-            </div>
-            <div class="card">
-                <h4>Game Theory</h4>
-                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
-            </div>
-            <div class="card">
-                <h4>Communicating Mathematics</h4>
-                <p>Communicating complex mathematical concepts in an easy-to-digest presentation.</p>
-            </div>
-        </div>
-    </section>
-
-    
-    <!-- Projects Section -->
+        <!-- Projects Section -->
   <section class="plaque">
         <h2><i class="fas fa-tasks"></i> Projects</h2>
         <article class="project-item">
@@ -228,6 +186,47 @@
         Future improvements to the model could be implemented by expanding the dataset to include more diverse and balanced samples which would further enhance generalisation and robustness. Additionally, hyperparameter optimisation techniques, such as grid search or Bayesian optimisation, could refine model performance and efficiency.
     </p>
 </section>
+
+    <!-- Education Section -->
+<section class="plaque">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <h3>BSc, Mathematics</h3>
+        <p><em>Loughborough University, UK</em> (<span>2021–2024</span>)</p>
+        <div class="card-list">
+            <div class="card">
+                <h4>Statistics for Large Data</h4>
+                <p>Advanced methods for analyzing and interpreting big datasets.</p>
+            </div>
+            <div class="card">
+                <h4>Linear Algebra</h4>
+                <p>Foundational mathematical concepts for computational modeling.</p>
+            </div>
+            <div class="card">
+                <h4>Graph Theory</h4>
+                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
+            </div>
+            <div class="card">
+                <h4>Operational Research</h4>
+                <p>Applying mathematical techniques to optimize processes and decision-making in complex systems.</p>
+            </div>
+            <div class="card">
+                <h4>Probability Theory</h4>
+                <p>Advanced concepts in probability and stochastic processes.</p>
+            </div>
+            <div class="card">
+                <h4>Mathematical Biology</h4>
+                <p>Modeling biological systems using mathematical frameworks to study dynamics and patterns.</p>
+            </div>
+            <div class="card">
+                <h4>Game Theory</h4>
+                <p>Exploring strategic interactions and decision-making in competitive and cooperative environments.</p>
+            </div>
+            <div class="card">
+                <h4>Communicating Mathematics</h4>
+                <p>Communicating complex mathematical concepts in an easy-to-digest presentation.</p>
+            </div>
+        </div>
+    </section>
 
 <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/x-ray-classification" target="_blank" class="modal-link">
                 View on GitHub <i class="fas fa-external-link-alt"></i>
