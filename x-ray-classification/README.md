@@ -8,7 +8,7 @@ This project was aimed at developing a machine learning model to assist doctors 
 
 The dataset comprised greyscale X-ray lung scans, an important consideration when preprocessing the data for neural network training. Grayscale images reduce the computational overhead compared to RGB images, but the large integer pixel values (0–255) posed a challenge for efficient learning. To address this, pixel values were normalised to a 0–1 range, ensuring faster convergence and improved numerical stability during training.
 
-Additionally, image augmentation techniques such as flipping, rotation, and zooming were applied to enhance the dataset's variability and improve the model's generalisation to unseen data. Images were also resized and reshaped to ensure compatibility with the neural network input shape, allowing seamless feeding of data into the model.
+Additionally, image augmentation techniques such as flipping, rotation, and zooming were applied to enhance the dataset's variability and improve the model's generalisation to unseen data.
 
 The dataset was split into training, validation, and testing sets, and the batch size parameter was varied during experiments. The batch size balances computational efficiency with gradient estimation quality: smaller batches speed up training but add variance to the learning curve, while larger batches provide smoother learning at the cost of higher computational demands.
 
