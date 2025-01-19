@@ -95,7 +95,7 @@
             </div>
         </article>
         <article class="project-item">
-            <img src="assets/41.png" alt="Screenshot of X-Ray project" class="project-image">
+            <img src="assets/twitter2.PNG" alt="Screenshot of KNN and Naive Bayes Project" class="project-image">
             <div class="project-text">
                 <h3><i class="fas fa-x-ray"></i> K-Nearest Neighbours and Naive Bayes Twitter Classification</h3>
                 <p>
@@ -209,7 +209,7 @@
             <span class="close-modal-btn">&times;</span>
             <section class="plaque">
     <h1>K-Nearest Neighbours and Naive Bayes Classification for Tweet Analysis</h1>
-            <a href="https://github.com/YourRepo/Tweet-Classification" target="_blank" class="modal-link">
+            <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/KNN_Naive_Bayes_Classification_Project" target="_blank" class="modal-link">
                 View code on GitHub <i class="fas fa-external-link-alt"></i>
             </a>
             <p>
