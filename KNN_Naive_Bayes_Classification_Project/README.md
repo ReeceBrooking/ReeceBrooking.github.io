@@ -10,11 +10,11 @@ This project aimed to classify tweet virality and predict tweet location using m
 The random tweets dataset contained a collection of tweets with metadata such as retweet count, text content, user details, and engagement metrics. To define virality, the median retweet count was used as a threshold: tweets with retweets above the median were classified as viral (1), while others were not (0).
 Feature engineering was performed to extract seemingly relevant attributes:
 
--**Tweet length**: Character count of the tweet text.
--**Follower count**: Number of followers of the tweet author.
--**Friend count**: Number of accounts the user follows that mutually follows them back.
--**Verified status**: Boolean of account verification.
--**Hashtag and mention count**: Number of hashtags (#) and mentions (@) in the tweet.
+- **Tweet length**: Character count of the tweet text.
+- **Follower count**: Number of followers of the tweet author.
+- **Friend count**: Number of accounts the user follows that mutually follows them back.
+- **Verified status**: Boolean of account verification.
+- **Hashtag and mention count**: Number of hashtags (#) and mentions (@) in the tweet.
 
 Data was scaled using standard normalization techniques to improve model convergence and performance.
 
