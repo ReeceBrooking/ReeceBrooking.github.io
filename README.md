@@ -247,7 +247,7 @@
 <h3>K-Nearest Neighbours</h3>
 <p>
     KNN classification was applied to the processed dataset. K-Nearest Neighbours (KNN)
-KNN is a supervised learning algorithm used for classification and regression. It operates on the principle that data points with similar features are likely to belong to the same category. Given a new data point, the algorithm:
+is a supervised learning algorithm used for classification and regression. It operates on the principle that data points with similar features are likely to belong to the same category. Given a new data point, the algorithm:
 </p>
 <ul>
     <li>
