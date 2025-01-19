@@ -99,7 +99,7 @@
             <div class="project-text">
                 <h3><i class="fas fa-x-ray"></i> K-Nearest Neighbours and Naive Bayes Twitter Classification</h3>
                 <p>
-                <strong>Technologies Used:</strong> Python, scikit-learn.
+                <strong>Technologies Used:</strong> Python, Scikit-learn.
             </p>
                 <p>This project focuses on classification of tweet virality and location using supervised machine learning techniques.</p>
                 <button class="open-modal-btn" data-modal="project-modal-2">View Details</button>
