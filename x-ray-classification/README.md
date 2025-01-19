@@ -50,7 +50,7 @@ Though it was shown by the F1 scores that “Normal” X-rays were less accurate
 The project encountered typical challenges in machine learning, particularly related to data and model optimisation.
 
 - **Overfitting**: The model initially performed well on training data but struggled with validation data. Regularisation techniques, namely dropout layers, mitigated overfitting. Early stopping further ensured training ceased when performance plateaued.
-- **Efficiency:** The initial model with three layers trained on too many parameters, leading to higher risk overfitting and longer model training. To combat this, convolutional and max pooling layers were implemented to reduce parameters and increase computational efficiency.
+- **Efficiency**: The initial model with three layers trained on too many parameters, leading to higher risk overfitting and longer model training. To combat this, convolutional and max pooling layers were implemented to reduce parameters and increase computational efficiency.
 
 ---
 
