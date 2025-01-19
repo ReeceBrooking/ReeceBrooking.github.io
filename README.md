@@ -94,6 +94,17 @@
                 <button class="open-modal-btn" data-modal="project-modal-1">View Details</button>
             </div>
         </article>
+        <article class="project-item">
+            <img src="assets/41.png" alt="Screenshot of X-Ray project" class="project-image">
+            <div class="project-text">
+                <h3><i class="fas fa-x-ray"></i> K-Nearest Neighbours and Naive Bayes Twitter Classification</h3>
+                <p>
+                <strong>Technologies Used:</strong> Python, scikit-learn.
+            </p>
+                <p>This project focuses on classification of tweet virality and location using supervised machine learning techniques.</p>
+                <button class="open-modal-btn" data-modal="project-modal-2">View Details</button>
+            </div>
+        </article>
     </section>
 
     <!-- Modal -->
@@ -192,6 +203,106 @@
             </a>
         </div>
     </div>
+    
+<div id="project-modal-2" class="modal">
+        <div class="modal-content">
+            <span class="close-modal-btn">&times;</span>
+            <section class="plaque">
+    <h1>K-Nearest Neighbours and Naive Bayes Classification for Tweet Analysis</h1>
+            <a href="https://github.com/YourRepo/Tweet-Classification" target="_blank" class="modal-link">
+                View code on GitHub <i class="fas fa-external-link-alt"></i>
+            </a>
+            <p>
+                This project aimed to classify tweet virality and predict tweet location using machine learning techniques. K-Nearest Neighbours (KNN) was implemented to determine whether a tweet was viral based on features such as length, hashtags, and user verification status. Additionally, a Naive Bayes classifier was employed to predict the origin of tweets based on word content. The models were both cross-validated to score them.
+            </p>
+            
+<hr>
+            <h2>Data Preparation and Preprocessing</h2>
+            <h3>K-Nearest Neighbours for Tweet Virality</h3>
+            <p>
+                The random tweets dataset contained a collection of tweets with metadata such as retweet count, text content, user details, and engagement metrics. To define virality, the median retweet count was used as a threshold: tweets with retweets above the median were classified as viral (1), while others were not (0).
+            </p>
+            <p> Feature engineering was performed to extract seemingly relevant attributes:
+            </p>
+            <ul>
+                <li><strong>Tweet length:</strong> Character count of the tweet text.</li>
+<li><strong>Follower count:</strong> Number of followers of the tweet author.</li> 
+<li><strong>Friend count:</strong> Number of accounts the user follows that mutually follows them back.</li>
+<li><strong>Verified status:</strong> Boolean of account verification.</li>
+<li><strong>Hashtag and mention count:</strong> Number of hashtags (#) and mentions (@) in the tweet.</li>
+            </ul>
+            <p>
+                Data was scaled using standard normalization techniques to improve model convergence and performance.
+            </p>
+            <h3>Naive Bayes for Tweet Location Prediction</h3>
+            <p>
+                The location datasets included tweets from three cities: New York, London, and Paris. The text content was extracted and labeled numerically according to location.
+            </p>
+            <p>
+                The dataset was split into training and testing sets, and CountVectorizer was used to convert text data into numerical format suitable for the Naive Bayes classifier.
+            </p>
+<hr>
+
+<h2>Model Design and Architecture</h2>
+<h3>K-Nearest Neighbours</h3>
+<p>
+    KNN classification was applied to the processed dataset. K-Nearest Neighbours (KNN)
+KNN is a supervised learning algorithm used for classification and regression. It operates on the principle that data points with similar features are likely to belong to the same category. Given a new data point, the algorithm:
+</p>
+<ul>
+    <li>
+        Computes the distance between the new point and all training points using a distance metric (e.g., Euclidean distance).
+    </li>
+<li>
+    Selects the K nearest points.
+</li>
+<li>
+    Assigns the majority class among the selected points to the new data point.
+</li>
+</ul>
+<p>KNN is a non-parametric model, meaning it does not make strong assumptions about the data distribution. However, it is sensitive to the choice of K and feature scaling, making optimization crucial.</p>
+<p>The choice of K (number of neighbors) was optimized by iterating over values from 1 to 200 and plotting accuracy scores. The best-performing K was selected based on the elbow method where K = 50 was where the curve began to plateau.</p>
+
+<h3>Naive Bayes</h3>
+<p>
+    A multinomial Naive Bayes classifier was used to predict tweet location. Naive Bayes is a probabilistic classifier based on Bayes' Theorem. The "naive" assumption assumes independence among features, simplifying calculations. Despite this simplification, Naive Bayes performs well for text classification tasks due to the relatively independent nature of words in a document.
+</p>
+
+<hr>
+
+<h2>Training and Evaluation</h2>
+            <h3>K-Nearest Neighbours</h3>
+            <p>
+                The dataset was divided into an 80-20 training-test split to ensure robust evaluation of the model. Various values of K were tested to optimize performance, with K = 106 yielding the highest accuracy of approximately 75.9%. K = 50 was instead used in the model for which a 5-fold cross-validation technique was employed to further validate model reliability, producing an average accuracy of 74.6%.
+            </p>
+         <h3>Naive Bayes</h3>
+            <p>
+                The Naive Bayes classifier was trained using a similar 80-20 split, which resulted in a cross-validated accuracy of 68.2%. Performance evaluation was conducted using a confusion matrix, revealing notable misclassifications, particularly between tweets from New York and London. The classification report further provided insights into key performance metrics such as precision, recall, and F1 scores, offering a comprehensive view of the model's strengths and weaknesses.
+            </p>
+        <hr>
+           <h2>Challenges and Solutions</h2>
+            <ul>
+                <li><strong>Feature selection for KNN:</strong> Some features contributed more to virality prediction. Experimentation with feature combinations improved model performance.</li>
+                <li><strong>Overfitting in KNN:</strong> A high number of neighbors led to excessive smoothing, while too few resulted in noise sensitivity. The optimal K balanced generalization and accuracy.
+                </li>
+            </ul>
+           <hr>
+
+ <h2>Future Directions</h2>
+            <p>
+                Enhancing prediction accuracy can be achieved by incorporating sentiment analysis and topic modeling. These techniques refine classifications by recognising the emotional tone and subject matter within the text.
+            </p>
+            <p>Deep learning models like Long Short-Term Memory (LSTM) networks offer another avenue for improving classification performance. LSTMs are particularly suited for text data due to their ability to recognize long-range dependencies, making them effective in capturing the sequential nature of tweet content.
+            </p>
+            <p>
+                Expanding the dataset with tweets from additional locations can improve model generalizability. A more diverse dataset reduces biases and enhances prediction reliability across different regions.
+            </p>
+        </section>
+     <a href="https://github.com/ReeceBrooking/ReeceBrooking.github.io/tree/main/KNN_Naive_Bayes_Classification_Project" target="_blank" class="modal-link">
+            View code on GitHub <i class="fas fa-external-link-alt"></i>
+        </a>
+    </div>
+</div>
 
     <!-- Education Section -->
 <section class="plaque">
