@@ -60,6 +60,7 @@ The Naive Bayes classifier was trained using a similar 80-20 split, which result
 ### Future Directions
 
 Enhancing prediction accuracy can be achieved by incorporating sentiment analysis and topic modeling. These techniques refine classifications by recognising the emotional tone and subject matter within the text.
+
 Deep learning models like Long Short-Term Memory (LSTM) networks offer another avenue for improving classification performance. LSTMs are particularly suited for text data due to their ability to recognize long-range dependencies, making them effective in capturing the sequential nature of tweet content.
 Expanding the dataset with tweets from additional locations can improve model generalizability. A more diverse dataset reduces biases and enhances prediction reliability across different regions.
 
