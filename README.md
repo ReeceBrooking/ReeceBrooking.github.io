@@ -262,7 +262,7 @@ is a supervised learning algorithm used for classification and regression. It op
 </ul>
 <p>KNN is a non-parametric model, meaning it does not make strong assumptions about the data distribution. However, it is sensitive to the choice of K and feature scaling, making optimization crucial.</p>
 <p>The choice of K (number of neighbors) was optimized by iterating over values from 1 to 200 and plotting accuracy scores. The best-performing K was selected based on the elbow method where K = 50 was where the curve began to plateau.</p>
-
+<img src="assets/output_6_0.png" alt="Headshot">
 <h3>Naive Bayes</h3>
 <p>
     A multinomial Naive Bayes classifier was used to predict tweet location. Naive Bayes is a probabilistic classifier based on Bayes' Theorem. The "naive" assumption assumes independence among features, simplifying calculations. Despite this simplification, Naive Bayes performs well for text classification tasks due to the relatively independent nature of words in a document.
@@ -279,6 +279,7 @@ is a supervised learning algorithm used for classification and regression. It op
             <p>
                 The Naive Bayes classifier was trained using a similar 80-20 split, which resulted in a cross-validated accuracy of 68.2%. Performance evaluation was conducted using a confusion matrix, revealing notable misclassifications, particularly between tweets from New York and London. The classification report further provided insights into key performance metrics such as precision, recall, and F1 scores, offering a comprehensive view of the model's strengths and weaknesses.
             </p>
+            <img src="assets/output_18_0.png" alt="Headshot">
         <hr>
            <h2>Challenges and Solutions</h2>
             <ul>
